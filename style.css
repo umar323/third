@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.container{
+    background: radial-gradient(58.43% 103.88% at 56.74% 50%, #0085FF 0%, #003465 100%);
+    height: 100vh;
+    z-index: -2;
+}
+.login__block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.login__box{
+    display: flex;  
+    flex-direction: column; 
+    width: 690px;
+    height: 690px;
+    background: rgba(88, 130, 193, 0.28);
+    backdrop-filter: blur(12.5px);
+    border-radius: 40px;
+    box-shadow: inset 0px 0px 20px 0px #4786fc; 
+    padding: 48px 90px;
+    z-index: 1;
+}
+.login__logo{
+    font:700 24px "Lato";
+    color: #fff;
+    text-align: start;
+}
+.login__title{
+    font:700 38px "Lato";
+    color: #fff;
+    margin-top: 13px;
+}
+.login__content{
+    display: flex;
+    flex-direction: column;
+}
+.login__email-title{
+    font:400 18px "Lato";
+    color: #fff;
+    margin-top: 30px;
+    padding-bottom: 8px;
+}
+.login__email{
+    font:400 14px "Lato";
+    padding-left: 23px;
+    width: 500px;
+    height: 50px;
+    border-radius: 10px;
+}
+.login__forgot{
+    font:400 12px "Lato";
+    color: #fff;
+    margin-top: 17px;
+    margin-bottom: 42px;
+}
+.login__btn{
+    background: #003465;
+    font: 700 20px "Lato";
+    padding: 13px 0 13px;
+    color: #fff;
+    border-radius: 10px;
+    border: none;
+}
+.login__continue-title{
+    font: 400 14px "Lato";
+    color: #fff;
+    text-align: center;
+    margin-top: 32px;
+}
+.login__icon-block{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.login__icon-box{
+    background: #fff;
+    width: 150px;
+    height: 50px;
+    padding: 13px 63px;
+    border-radius: 10px;
+}
+.circl1, .circl2 ,.circl3{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    border-radius: 50%;
+}
+.circl1{
+   background: #05a508;
+   left: 800px;
+   top: 150px;
+   box-shadow: 0px 0px 20px 15px #15aa18 ;
+}
+.circl2{
+   background: #641a59; 
+   left: 1498px;
+   top: 258px;
+   box-shadow: 0px 0px 20px 15px  #641a59;
+}
+.circl3{
+   background: #a0862b;
+   left: 1117px;
+   top: 780px; 
+   box-shadow: 0px 0px 20px 15px #a0862b;
+}
